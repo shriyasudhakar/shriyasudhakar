@@ -2,6 +2,8 @@ import HeaderLeft from './components/HeaderLeft';
 import Home from './components/Home';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import About from './components/About'
+import OnCampus from './components/OnCampus';
 
 function App() {
   return (
@@ -11,10 +13,14 @@ function App() {
 
         <main className="flex-[3]">
           <Home />
+          <About />
           <Experience />
+          <OnCampus />
           <Projects />
+
         </main>
       </div>
+
     </>
   );
 }
