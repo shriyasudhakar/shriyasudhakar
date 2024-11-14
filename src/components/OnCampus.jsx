@@ -20,18 +20,30 @@ const OnCampus = () => {
         </div>
         <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-indigo-600 rounded-lg hover:bg-indigo-60">
           <h1 className='text-3xl font-semibold'>Cornell Mars Rover</h1>
-          <h3 className='text-xl font-semibold'>Controls Software Subteam Member</h3>
-          <p className='text-sm text-gray-600'></p>
+          <h3 className='text-xl text-gray-700'>Controls Software Subteam Member</h3>
+          <li>
+            We build rovers! Every year, CMR designs and builds a new semi-autonomous rover to compete in the prestigious University Rover Challenge.
+          </li>
+          <li>
+            As a Software member, I work on projects ranging from Deep Learning to create Birds Eye Views (what I'm working on right now!) to autonomous path planning, even drones!
+          </li>
         </div>
         <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-indigo-600 rounded-lg hover:bg-indigo-60">
           <h1 className='text-3xl font-semibold'>Cornell Orchestras</h1>
           <h3 className='text-xl text-gray-700'>Fundraising Co-Chair and Violinist</h3>
-          <p className='text-sm text-gray-600'></p>
+          <li>
+            As Fundraising Co-Chair, I organize fundraisers for the Orchestras. I'm currently leading our first crowdfunding campaign (since 2019) to help the Orchestras fundraise for our upcoming tour in Boston! Please consider donating at <a href='https://crowdfunding.cornell.edu/project/44427'>https://crowdfunding.cornell.edu/project/44427</a>.
+          </li>
         </div>
         <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-indigo-600 rounded-lg hover:bg-indigo-60">
           <h1 className='text-3xl font-semibold'>Cornell Tech Consulting</h1>
           <h3 className='text-xl text-gray-700'>Analyst</h3>
-          <p className='text-sm text-gray-600'></p>
+          <li>
+            At CTC, we help provide tech-based solutions and consulting to the local Ithaca community.
+          </li>
+          <li>
+            I helped identify a new client, Bet the Farm Winery, and created sample website templates and social media strategies.
+          </li>
         </div>
       </div>
     </div>
